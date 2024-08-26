@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    position:fixed;
+    top: 0;
+}
+header h1{
+padding-inline: 1rem;
+font-weight: 600;
+}
+header h1 span {
+    font-family: "Bungee Tint", sans-serif;
+}
+header img{
+    height: 3rem;
+}
+
+body{
+    height: 100vh;
+    background: url("https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?q=80&w=1948&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-transform: capitalize;
+}
+.title{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 2rem;
+    letter-spacing: 1rem;
+}
+.clock{
+    display: flex;
+
+}
+.clock div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    color: #fff;
+    gap: .2rem;
+    position: relative;
+
+}
+.clock div span{
+    width: 8rem;
+    height: rem;
+    background-color: rgba(34, 139, 34, 0.534);
+    font-size: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.623);
+}
+.clock div #text{
+    font-size: 1.3rem;
+    height: 2rem;
+    background-color: rgb(12, 88, 12);
+    letter-spacing: .2rem;
+
+}
+.clock div #ampm{
+    position: absolute;
+    bottom: 0;
+    font-size: 1.5rem;
+    width: 3rem;
+    height: 2rem;
+    background-color: lightskyblue;
+    color: black;
+
+}
